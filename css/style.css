@@ -40,5 +40,19 @@ h1, h2, h3 {
     color: purple;
 }
 
+first-of-type #experience {
+    border-bottom: 2px dashed #ccc;
+    }
 
+#section first-child {
+    margin-bottom: 3rem;
+}
+
+#section > h2 ~ p strong {
+    color: purple;
+}
+
+
+
+    
 
