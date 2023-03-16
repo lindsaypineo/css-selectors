@@ -52,8 +52,15 @@ first-of-type #experience {
     color: purple;
 }
 
+main > section > h2 ~ p:first-of-type strong {
+color: purple
+}
 
+li:nth-child(2) {
+    color: purple
+}
 
-
-    
+dl > div:last-child {
+    background-color: #ccc
+}
 
